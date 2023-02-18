@@ -7,7 +7,7 @@ public class Main {
 
 
         Polynomial polynomial3 = new Polynomial(5);
-        Polynomial polynomial4 = Polynomial.multiplyTwoPolynomials(polynomial1, polynomial2);  //14 + 14x + 18x^2
+        Polynomial polynomial4 = Polynomial.multiplyTwoPolynomials(polynomial1, polynomial2);
 
         polynomial3.multiplyPolynomial(polynomial4);
         System.out.println(polynomial3);
